@@ -1,0 +1,169 @@
+.svgMenu{
+    float: right;
+}
+.msg{
+    /* Tableau de bord */
+
+position: absolute;
+width: 150px;
+margin-top: 10px;
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 14px;
+/* identical to box height, or 48% */
+
+color: #000000;
+
+
+
+}
+.barre{
+    margin-top: 5%;
+  }
+.imag{
+    /* Group 594 */
+
+
+width: 53px;
+height: 53px;
+
+top: 62px;
+
+
+}
+.divBGM{
+    /* Rectangle 2755 */
+
+    box-sizing: border-box;
+    width: 969px;
+    height: 762px;
+    background: rgba(255, 255, 255, 0.55);
+    border: 3px solid #FFFFFF;
+    border-radius: 27px;
+  
+    /* Flexbox centering */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; 
+
+}
+.image22{
+ /* Frame 1000005272 */
+
+
+width: 401.55px;
+height: 299.2px;
+
+display: block;
+margin-bottom: 20px
+
+
+
+}
+.paragraphe{
+    /* Please set your schedule first */
+
+
+width: 500px;
+height: 72px;
+
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #000000;
+
+
+}
+.btn{
+    /* Frame 595 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 24px;
+gap: 10px;
+
+margin-left: 10%;
+width: 289px;
+height: 38px;
+border: none;
+color: white;
+/* gradient */
+background: linear-gradient(95.07deg, #C43CAB 7.11%, #F87E4B 91.63%);
+border-radius: 20px;
+
+}
+.CADRE{
+    margin-top: 5%;
+  }
+  /* @media (max-width:1300px) {
+    .divBGM{
+        
+        width: auto;}
+    
+    .messageM{
+        margin-left: 10%;
+        width: auto;
+    }}
+    @media (max-width:1300px) {
+        .divBGM{
+            
+            width: auto;}
+        
+        .messageM{
+            margin-left: 20%;
+            width: auto;
+        }}
+        @media (max-width:900px) {
+            .divBGM{
+                
+                width: auto;}
+            
+            .messageM{
+                margin-left: 40%;
+                width: auto;
+            }}
+            
+            .image22{
+                width: 100%;
+                height: 20%;
+            }
+            .paragraphe{
+                font-size: 38%;
+            }
+            .btn{
+                width: 70%;
+                height: auto;
+            }
+    
+@media (max-width:600px) {
+    .divBGM{
+        
+        width: auto;}
+    .image22{
+        width: 100%;
+        height: 20%;
+    }
+    .messageM{
+        margin-left: 40%;
+        width: auto;
+    }
+    .paragraphe{
+        font-size: 38%;
+    }
+    .btn{
+        width: 70%;
+        height: auto;
+    }
+} */

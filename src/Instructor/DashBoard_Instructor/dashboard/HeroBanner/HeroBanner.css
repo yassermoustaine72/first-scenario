@@ -1,0 +1,48 @@
+.hero{
+    
+/* Rectangle 21 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 353px;
+height: 1041px;
+left: 25px;
+top: 45px;
+
+background: rgba(255, 255, 255, 0.67);
+border: 5px solid #FFFFFF;
+border-radius: 40px;
+
+
+}
+.imag1{
+    padding: 20px;
+}
+.profile3{
+    padding: 20px;
+    margin-left: 2%;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    width: 100%; /* Utiliser toute la largeur disponible sur les petits écrans */
+    height: auto; /* Ajuster la hauteur en fonction du contenu */
+    position: static; /* Position statique pour éviter les problèmes de chevauchement */
+    border-radius: 20px; /* Réduire le border-radius sur les petits écrans */
+  }
+  .imag1{
+    padding: 10px;
+}
+
+  .profile3 {
+    margin-left: 0; /* Aucune marge à gauche pour les petits écrans */
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-col {
+    /* Largeur spécifique pour les écrans moyens et grands */
+    padding: 0; /* Supprimer le padding sur les grands écrans si nécessaire */
+  }
+}

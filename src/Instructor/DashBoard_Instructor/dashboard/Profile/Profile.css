@@ -1,0 +1,94 @@
+.profile1{
+    
+    padding-top: 20px;
+    width: 969px;
+    height: 305px;
+    padding-left: 30px;
+}
+.container{
+    margin: 0;
+}
+.textDASH{
+
+width: 269px;
+height: 15px;
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 14px;
+
+color: #000000;
+
+}
+.text1{
+ font-size: 31px;
+}
+.text2{
+    font-size: 26px;
+}
+.imgGirl{
+    position: relative;
+    width: 574px;
+    height: 383px;
+    top: -98px ;
+}
+.container2 {
+    display: flex;
+    justify-content: space-between; /* Espace entre les deux div */
+    align-items: center; /* Aligner verticalement les éléments */
+    padding: 10px;
+    margin-top: 5%;
+  }
+  
+  .left {
+    font-size: 25PX;
+    flex: 1; /* Prend toute la largeur restante à gauche */
+  }
+  
+  .right {
+    display: flex; /* Permet de placer les SVG côte à côte */
+    gap: 10px; /* Espacement entre les SVG */
+  }
+  
+  .right svg {
+    width: 24px;
+    height: 24px;
+    fill: #000; /* Couleur des SVG */
+  }
+  
+  @media (max-width: 768px) {
+    .profile1{
+    
+      padding-top: 20px;
+      width: 200px;
+      height: 305px;
+      padding-left: 30px;
+      margin-left: 30%;
+  }
+  .textDASH{
+
+    
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 14px;
+    margin-left: 20%;
+    color: #000000;
+    
+    }
+    .imgGirl{
+      display: none;
+    }
+    .text1{
+      font-size: 27px;
+     }
+     .text2{
+         font-size: 18px;
+     }
+     
+
+  }
+ 

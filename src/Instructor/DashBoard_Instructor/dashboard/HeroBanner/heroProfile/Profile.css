@@ -1,0 +1,38 @@
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 12px;
+    opacity: 0.9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 8%;
+  }
+  
+  .profile-img {
+    max-width: 100px; /* Ajustez la taille de l'image */
+    border-radius: 50%;
+  }
+  
+  .nom {
+    font-size: 18px;
+  }
+  
+  /* Responsivité */
+  @media (max-width: 768px) {
+    .profile {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-left: -15%;
+    }
+    
+    .profile-img {
+      max-width: 80px;
+    }
+    
+    .nom {
+      font-size: 16px;
+    }
+  }
+  

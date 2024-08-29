@@ -1,0 +1,49 @@
+.vertical-navbar {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+/* Style des liens */
+.vertical-navbar a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  border-radius: 32px;
+  
+  transition: background 0.3s ease, color 0.3s ease;
+  margin-bottom: 5px;
+  padding-left: 18%;
+}
+
+.vertical-navbar a:hover,
+.vertical-navbar a.active {
+  background: linear-gradient(95.07deg, #C43CAB 7.11%, #F87E4B 91.63%);
+  color: white;
+}
+
+/* Style des icônes et textes */
+.spanh3 {
+  display: flex;
+  align-items: center;
+}
+
+.spanh3 img {
+  max-width: 24px; /* Ajustez la taille des images */
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .vertical-navbar a {
+    padding: 10px;
+    font-size: 11px;
+  }
+  
+  .spanh3 img {
+    max-width: 20px; /* Réduit la taille des images sur petits écrans */
+  }
+}

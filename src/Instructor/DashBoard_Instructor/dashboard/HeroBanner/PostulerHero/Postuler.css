@@ -1,0 +1,77 @@
+.postuler-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.postuler {
+  height: auto; /* Adjust height automatically */
+  width: 100%; /* Use full available width */
+  max-width: 291px; /* Max width for larger screens */
+  background-size: cover; /* Ensure background image covers the area */
+  background-position: center; /* Center the background image */
+  border-radius: 12px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.textPostule {
+  font-size: 24px;
+  text-align: center;
+  color: #fff; /* Contrast text color with background */
+}
+
+.explore-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.explore {
+  height: 43px;
+  width: auto;
+  max-width: 240px; /* Max width */
+  background-color: rgba(255, 255, 255, 0.62);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+  .postuler {
+    width: 110PX; /* Use full width on smaller screens */
+    padding: 15px;
+    margin-top: 20px;
+  }
+
+  .textPostule {
+    font-size: 11px;
+    font-weight: bolder;
+    /* Adjust font size for smaller screens */
+  }
+
+  .explore {
+    width: 100px;
+     /* Full width for button on smaller screens */
+    max-width: none; /* Remove max width limit */
+     /* Adjust font size */
+  }
+  #a-text{
+    font-size: 11px;
+  }
+}

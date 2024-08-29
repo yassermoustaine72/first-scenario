@@ -1,0 +1,147 @@
+.svgMenu{
+    float: right;
+}
+.msg{
+    /* Tableau de bord */
+
+position: absolute;
+width: 150px;
+margin-top: 10px;
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 14px;
+/* identical to box height, or 48% */
+
+color: #000000;
+
+
+}
+.imag{
+    /* Group 594 */
+
+
+width: 53px;
+height: 53px;
+
+top: 62px;
+
+
+}
+.divBG1{
+/* Rectangle 274 */
+
+box-sizing: border-box;
+
+
+width: 967px;
+height: 515px;
+
+top: 121px;
+
+background: rgba(255, 255, 255, 0.88);
+border: 2px solid #FFFFFF;
+border-radius: 15px;
+
+}
+.title{
+    /* Your NEPH */
+
+
+width: 873px;
+height: 29px;
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+}
+.btnRetour{
+    /* Frame 52421 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 10px 29px;
+gap: 10px;
+
+position: absolute;
+width: 133px;
+height: 40.34px;
+
+
+/* gradient */
+background: linear-gradient(95.07deg, #C43CAB 7.11%, #F87E4B 91.63%);
+border-radius: 34px;
+
+}
+.textspan{
+    /* Back */
+
+position: absolute;
+width: 52px;
+height: 20px;
+left: 52px;
+top: 10px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+}
+.divProf {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:5%;
+    width: 434px;
+    height: 92px;
+
+    background: #F8F8F8;
+    border: 1px solid #D1D1D1;
+    border-radius: 8px;
+}
+
+.sim {
+    margin-left: 4%;
+    width: 57px;
+    height: 57px;
+}
+
+.para {
+    margin-top: 4%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+}
+.entre{
+    /* Frame 1000005275 */
+
+
+width: 38px;
+height: 38px;
+margin-right: 4%;
+
+
+}

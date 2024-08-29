@@ -1,0 +1,43 @@
+.cadreDate{
+    /* Rectangle 2763 */
+
+
+width: 900px;
+height: 354px;
+
+
+background: #FFFFFF;
+border-radius: 15px;
+
+}
+.paraSession{
+    /* The Morning */
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+
+
+color: #000000;
+
+}
+.hourLabel{
+
+margin: 1%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+@media (max-width: 768px){
+    .cadreDate{
+        width: auto;
+    }
+}

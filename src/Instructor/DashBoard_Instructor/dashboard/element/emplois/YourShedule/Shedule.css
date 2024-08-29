@@ -1,0 +1,105 @@
+.shed{
+    margin-top: 3%;
+}
+.titre1{
+    /* votre emploi du temps */
+
+
+width: 364px;
+height: 38px;
+
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+
+color: #000000;
+
+
+}
+.cadre{
+    /* Rectangle 2755 */
+    margin-left: -2%;
+box-sizing: border-box;
+padding: 5%;
+width: 969px;
+height: 671px;
+margin-top: 2%;
+
+background: rgba(255, 255, 255, 0.55);
+border: 3px solid #FFFFFF;
+border-radius: 27px;
+
+}
+.p-soustitle{
+    /* créez votre disponibilité */
+
+
+width: 277px;
+height: 28px;
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 28px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.p-sous{
+    /* créez vos disponibilités tout au long d'une semaine */
+
+
+width: 376px;
+height: 20px;
+
+font-family: 'Syne';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+
+color: #000000;
+
+
+}
+.calendar1{
+    margin-top: 2%;
+    
+}
+@media (max-width: 768px){
+    .shed{
+        margin-left: 17%;
+    }
+    .titre1{
+    
+    font-size: 20px;
+    
+    
+    }
+    .cadre{
+        /* Rectangle 2755 */
+    
+    padding: 5%;
+    width: 250px;
+    
+    margin-top: 2%;
+    
+    }
+    .p-soustitle{
+   
+    font-size: 15px;
+    
+    }
+    .p-sous{
+    
+    font-size: 10px;
+    
+    
+    }
+}

@@ -1,0 +1,45 @@
+
+
+
+.rbc-header {
+    /* Rectangle 2756 */
+
+width: 121px;
+height: 38px;
+
+
+/* gradient */
+background: linear-gradient(95.07deg, #C43CAB 7.11%, #F87E4B 91.63%);
+border: 0px solid #DBDBDB;
+border-radius: 7px;
+margin: 10px; /* Ajoute de l'espace sous les en-têtes */
+ 
+/* Monday */
+
+
+
+left: 490px;
+top: 719px;
+
+font-family: 'Syne';
+font-style: normal;
+font-size: large;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+  .rbc-month-view{
+    border-top: none;
+  }
+
+
+  
+
+
+  @media (max-width: 768px){
+    .rbc-header{
+      display: none;
+    }
+  }

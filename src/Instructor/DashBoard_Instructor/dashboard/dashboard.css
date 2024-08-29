@@ -1,0 +1,48 @@
+.div4{
+    top: 500px;
+}
+/* Dashboard.css */
+
+/* Styles pour la colonne fixe (sidebar) */
+.sidebar {
+    background: #f8f9fa; /* Couleur de fond */
+    border-right: 1px solid #ddd; /* Bordure droite */
+    transition: transform 0.3s ease; /* Animation de transition */
+    height: 100vh; /* Hauteur pleine */
+    position: fixed; /* Fixer la colonne latérale */
+  }
+  
+  .sidebar.open {
+    transform: translateX(0); /* Afficher la colonne latérale */
+  }
+  
+  .sidebar.closed {
+    transform: translateX(-100%); /* Masquer la colonne latérale */
+  }
+  
+  /* Styles pour le contenu principal */
+  .main-content {
+    margin-left: auto; /* Laisser de l'espace pour la colonne fixe */
+    padding: 15px;
+  }
+  
+  /* Styles pour le bouton de basculement en mode mobile */
+  .toggle-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000; /* Assurez-vous que le bouton est au-dessus du contenu */
+  }
+  .col2{
+    position: relative;
+    left: -50px;
+    
+  }
+  /* Styles pour les écrans plus grands */
+  @media (min-width: 768px) {
+    .toggle-button {
+      display: none; /* Cacher le bouton sur les écrans plus larges */
+    }
+  }
+  
+  
